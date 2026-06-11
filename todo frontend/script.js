@@ -2,7 +2,7 @@ const taskInput = document.getElementById("taskInput");
 const addButton = document.querySelector(".todo-input button");
 const todoList = document.querySelector(".todo-list");
 
-const API_URL = "http://127.0.0.1:8000/api/tasks/";
+const API_URL = "https://todo-app-xwi5.onrender.com/api/tasks/";
 
 // Load tasks when page opens
 window.onload = fetchTasks;
